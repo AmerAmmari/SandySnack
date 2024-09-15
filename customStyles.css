@@ -1,22 +1,39 @@
-.colourNavBar {
-    color: black;
-    background-color: white;
+@font-face {
+    font-family: 'Trajan';
+    src: url('Assets/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    color: rgb(255, 255, 255);
+    background-color: #f0e8db;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .colourHeader {
-    color: white;
-    background-color: #d9161c;
-}
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffffff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.25), 
+    rgba(0 0 0 / 0%), rgb(0 0 0  / 55%)), url(Assets/background.jpg);
 
+
+}
 
 .buyTicketsBtn {
     color: white;
     border-radius: 5px;
-    background-color: #1a8330;
+    font-family: "Trajan";
+    background-color: #1f723c;
+    padding: 16px 36px;
+    font-size: 20px;
 }
 
-.helvetica {
-    font-family: Helvetica;
+.textFont {
+    font-family: 'Trajan';
 }
 
 .w3-bar {
@@ -27,4 +44,112 @@
 
 .w3-bar .w3-bar-item {
     flex: none; /* Ensures items don't stretch and remain their original size */
+}
+
+.paddingTB {
+    padding: 15px 10px;
+}
+
+.navBarElement {
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.fontsize86 {
+    font-size: 86px !important;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.paddingTrailer {
+    padding-top: 24px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.trajanImportant {
+    font-family: 'Trajan' !important;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom right, #f3eee6, white);
+}
+
+.logo {
+    height: auto; 
+    width: auto;
+    max-width: 200px;
+    max-height: 55px;
+    margin-left: 20px;
+}
+
+.maskIcon {
+    background: url('Assets/maskIcon.png');
+    height: 256px;
+    width: 256px;
+    display: block;
+}
+
+.ticketIcon {
+    background: url('Assets/ticket.png');
+    height: 256px;
+    width: 256px;
+    display: block;
+}
+
+.faqIcon {
+    background: url('Assets/FAQ.png');
+    height: 256px;
+    width: 256px;
+    display: block;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.middleItemNav {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+}
+
+.mt-81 {
+    margin-top: 81px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.collapsedNavItem {
+    text-align: center !important;
+}
+
+::selection {
+    background: rgb(255, 25, 25);
+    color: white;
+}
+
+.paddingSpecial {
+    padding-top: 24px;
+    padding-bottom: 64px;
+}
+
+.mt-90 {
+    margin-top: 90px;
 }
