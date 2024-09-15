@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>Sandy Snack - Stars Of Lebanon</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,84 +9,179 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="Assets/favicon-32x32.png">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
 </head>
-<body>
+<body class="gradient">
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar colourNavBar w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large colourNavBar" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large">Tickets</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large">FAQ</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large">Contact Us</a>
+  <div class="navbar w3-card w3-left-align w3-large paddingTB">
+    <div style="flex: 1;"><a href="#"><img src="Assets/placeholder.png" alt="Logo" class="logo"></a></div>
+    <div class="middleItemNav">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large w3-text-black navBarElement" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large navBarElement">Home</a>
+      <a href="#Tickets" class="w3-bar-item w3-button w3-hide-small w3-padding-large navBarElement">Tickets</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large navBarElement">FAQ</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large navBarElement">Contact Us</a>
+    </div>
+    <div style="flex: 1;">&nbsp</div>
+    
+    </div>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">FAQ</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large mt-81">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large collapsedNavItem">Home</a>
+    <a href="#Tickets" class="w3-bar-item w3-button w3-padding-large collapsedNavItem">Tickets</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large collapsedNavItem">FAQ</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large collapsedNavItem">Contact Us</a>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-container colourHeader w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo helvetica">Sandy Snack</h1>
-  <p class="w3-xlarge helvetica">A play by the Stars of Lebanon</p>
-  <button class="w3-button buyTicketsBtn w3-padding-large w3-large w3-margin-top">Buy Tickets</button>
+  <h1 class="w3-margin textFont fontsize86">Sandy Snack</h1>
+  <p class="w3-xlarge textFont">A play by the Stars of Lebanon</p>
+  <button class="w3-button buyTicketsBtn paddingBtn mt-100">Buy Tickets</button>
 </header>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<!-- Trailer Grid -->
+<div class="w3-row-padding w3-container paddingTrailer"></div>
+  <div class="w3-content">
+    <div class="w3-center">
+      <h1 style="font-weight: bold;" class="trajanImportant">Trailer</h1>
+
+      <div class="w3-center">
+        <iframe class="w3-center" width="750" height="422" src="https://www.youtube.com/embed/UaVTIH8mujA"></iframe>
+      </div>
+    </div>
+
+    <h5 class="w3-padding-32">The aging patriarch of an organized crime dynasty transfers control 
+    of his clandestine empire to his reluctant son. New York, 1945. Don Vito Corleone (played by Marlon Brando)
+     is the aging Godfather of a mafia family. Here you would put your own description for the play.</h5>
+      
+  </div>
+</div>
+
+<!-- Home Grid -->
+<div class="w3-row-padding w3-container paddingSpecial">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Stars of Lebanon</h1>
+      <h5 class="w3-padding-32">We are a group of 100 actors...... we have been performing since .....  
+        this is our 1000th annual play... bla bla bla bla bla bla bla bla bla bla bla bla</h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey">More rambling over here.  bla bla bla bla bla bla bla bla bla bla bla bla  bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla  bla bla bla bla bla bla bla bla bla bla bla bla  bla bla bla bla bla bla bla bla bla bla bla bla
+      </p>
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <i class="maskIcon w3-padding-64 w3-text-red"></i>
     </div>
   </div>
 </div>
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+<!-- Tickets Grid -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container" id="Tickets"> 
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <i id="ticketIcon" class="ticketIcon w3-padding-64 w3-text-red w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Event Details</h1>
+      <h5 class="w3-padding-32">The event is located at <strong>123 Sesame Street, Ottawa ON K1A OB1, Canada</strong>. Tickets will be required to enter the theatre.
+        Each ticket is only valid for the viewing on <strong>December 25th, 2024</strong>. To purchase a ticket, click the Buy Tickets button.</h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button class="w3-button buyTicketsBtn paddingBtn">Buy Tickets</button>
+
+      <p class="w3-text-grey">Tickets are non refundable past November 25th, 2024. More policy information can go here</p>
     </div>
   </div>
 </div>
 
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+<!-- FAQ Grid -->
+<div class="w3-row-padding w3-container w3-padding-64">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Frequently Asked Questions (FAQ)</h1>
+      
+      <!-- FAQ 1 -->
+      <button onclick="toggleFAQ('faq1')" class="w3-button w3-block w3-left-align w3-light-grey w3-padding-large w3-margin-bottom">
+        What is the date and location of the event?
+      </button>
+      <div id="faq1" class="w3-hide w3-container">
+        <p class="w3-text-grey">The event will take place on December 25th, 2024, at 123 Sesame Street, Ottawa, ON K1A OB1, Canada.</p>
+      </div>
+      
+      <!-- FAQ 2 -->
+      <button onclick="toggleFAQ('faq2')" class="w3-button w3-block w3-left-align w3-light-grey w3-padding-large w3-margin-bottom">
+        Can I refund or exchange my tickets?
+      </button>
+      <div id="faq2" class="w3-hide w3-container">
+        <p class="w3-text-grey">Tickets are non-refundable past November 25th, 2024. Exchanges may be possible depending on availability.</p>
+      </div>
+      
+      <!-- FAQ 3 -->
+      <button onclick="toggleFAQ('faq3')" class="w3-button w3-block w3-left-align w3-light-grey w3-padding-large w3-margin-bottom">
+        Are there any age restrictions for the event?
+      </button>
+      <div id="faq3" class="w3-hide w3-container">
+        <p class="w3-text-grey">There are no specific age restrictions, but parental guidance is suggested for younger attendees due to mature themes.</p>
+      </div>
+
+      <!-- FAQ 4 -->
+      <button onclick="toggleFAQ('faq4')" class="w3-button w3-block w3-left-align w3-light-grey w3-padding-large w3-margin-bottom">
+        What is the duration of the play?
+      </button>
+      <div id="faq4" class="w3-hide w3-container">
+        <p class="w3-text-grey">The play will last approximately 2 hours, including a 15-minute intermission.</p>
+      </div>
+
+      <!-- FAQ 5 -->
+      <button onclick="toggleFAQ('faq5')" class="w3-button w3-block w3-left-align w3-light-grey w3-padding-large w3-margin-bottom">
+        How can I contact the organizers?
+      </button>
+      <div id="faq5" class="w3-hide w3-container">
+        <p class="w3-text-grey">You can contact us via email at info@starsoflebanon.com or by phone at (123) 456-7890.</p>
+      </div>
+
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="faqIcon w3-padding-64 w3-text-red ml-30 mt-90"></i>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-center w3-padding-32 w3-text-white" style="background-color: #2e2e2e;"> 
+  <h1 class="w3-margin w3-xlarge"><strong>Contact Us!</strong></h1>
+  <h4 class="mt-15">Email: test@gmail.com</h4>
+  <h4 class="mt-15">Phone Number: (613) 000-9942</h4>
+  <h4 class="mt-15">Instagram: @starsoflebanon</h4>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<footer class="w3-container w3-padding-32 w3-center footerColour">  
  <p>&copy Stars Of Lebanon, 2024</p>
 </footer>
 
 <script>
+function toggleFAQ(id) {
+    var faq = document.getElementById(id);
+    if (faq.classList.contains('w3-show')) {
+      faq.classList.remove('w3-show');
+    } else {
+      faq.classList.add('w3-show');
+    }
+  }
+
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
