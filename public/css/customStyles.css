@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Trajan';
-    src: url('public/Assets/TrajanPro-Regular.ttf') format('truetype');
+    src: url('Assets/TrajanPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -93,21 +93,21 @@
 }
 
 .maskIcon {
-    background: url('/public/Assets/maskIcon.png');
+    background: url('Assets/maskIcon.png');
     height: 256px;
     width: 256px;
     display: block;
 }
 
 .ticketIcon {
-    background: url('public/Assets/ticket.png');
+    background: url('Assets/ticket.png');
     height: 256px;
     width: 256px;
     display: block;
 }
 
 .faqIcon {
-    background: url('public/Assets/FAQ.png');
+    background: url('Assets/FAQ.png');
     height: 256px;
     width: 256px;
     display: block;
